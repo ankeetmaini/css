@@ -1,7 +1,7 @@
 # float
 
 - When an element is *floated* other content *flows around it*. It still affects the layout.
-- Margins with floated elements do not collapse.
+- Margins with floated elements do not collapse. <a href='https://jsbin.com/mikide/edit' target='_blank'>JSBin</a>
 - The parent which contains the floating element is called *container block*.
 - Floated elements generate a **block box**. Even if an inline element like `a` is floated.
 - Rules which determine the final position of a floated element:
