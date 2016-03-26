@@ -1,7 +1,7 @@
 # float
 
 - When an element is *floated* other content *flows around it*. It still affects the layout.
-- Margins with floated elements do not collapse. <a href='https://jsbin.com/mikide/edit' target='_blank'>JSBin</a>
+- Margins with floated elements do not collapse. [JSBin](https://jsbin.com/mikide/edit)
 - The parent which contains the floating element is called *container block*.
 - Floated elements generate a **block box**. Even if an inline element like `a` is floated.
 - Rules which determine the final position of a floated element:
@@ -20,7 +20,7 @@
 - `clear` is used on any element that shouldn't flow around a *floated* element.
 - It only applies to **block** elements.
 
-```css
+```
   clear: left;
   // clear: right;
   // clear: both;
@@ -34,3 +34,35 @@
 
 - Used to shape the flow of content around a float.
 - Only applies to **floated elements**.
+- Without using shapes, the content will flow around in a rectangular manner. [JSBin](https://jsbin.com/duluweq/1/edit?html,css,output)
+- `shape-outside`'s value can be `none`, `<basic-shape>`, `<shape-box>` or `none`.
+- `basic-shape` can be one of the following:-
+  - `inset()`
+  - `circle()`
+  - `ellipse()`
+  - `polygon()`
+- `shape-box` can be one of the following:-
+  - `margin-box`, content flows around the margin, **default**
+  - `border-box`, content flows around the border
+  - `padding-box`, content flows around the padding
+  - `content-box`, content flows around the content
+- The following code generates an [ellipse shape](examples/ellipse.png)
+```
+aside {
+  float: right;
+  height: 200px;
+  width: 200px;
+  background: cornsilk;
+  padding: 10px;
+
+  /* shape-outside */
+  shape-outside: inset(2% round 50% 25%);
+}
+```
+- A [circle](examples/circle.png) can also be generated if you were to change the `shape-outside` property to this
+```
+shape-outside: inset(2% round 50% 50%); // 1
+shape-outside: circle(130px at 50% 50%); // 2
+```
+- Shapes cannot exceed their shape box, even if they seem so, the content will flow around the `shape-box`
+- `shape-margin` can be used to give margins to the shape, but again, `shape-margin` too is cliped by the `shape-box`.
