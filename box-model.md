@@ -35,7 +35,7 @@
 - top and bottom borders on replaced and nonreplaced elements will behave exactly as padding did. (see above section on padding)
 
 # border-image
-// TODO JSBin(https://jsbin.com/gafepe/5/edit?html,css,output)
+// TODO [JSBin](https://jsbin.com/gafepe/5/edit?html,css,output)
 
 # outlines
 - Outlines are drawn just beyond the borders but are different in the following aspects

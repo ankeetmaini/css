@@ -26,7 +26,7 @@
   // clear: both;
 ```
 
-- It worked in CSS1 and CSS2 by increasing the top margin. It also meant that any top margin given to a cleared element will effectively be ignored.
+- It worked in CSS1 and CSS2 by increasing the top margin. It also meant that any top margin given to a cleared element will effectively be ignored. Because, `margin-collapse `
 - `clearance` was introduced in CSS2.1 it was equal to the extra spacing added on top of the margin value of the cleared element.
 - The best way to create a space between a floated element and a cleared one is to add a `margin-bottom` of the floated element.
 
