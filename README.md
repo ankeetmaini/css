@@ -4,6 +4,7 @@ A collection of CSS notes.
 - [Floating](floats.md)
 - [Box Model - Padding, Borders and Margins](box-model.md)
 - [Visual Formatting](display.md)
+- [Transfroms](transforms.md)
 
 ## bibliography
 - CSS Floating by Eric A. Meyer
