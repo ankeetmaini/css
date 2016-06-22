@@ -1,6 +1,7 @@
 # css
 A collection of CSS notes.
 
+- [General](general.md)
 - [Floating](floats.md)
 - [Box Model - Padding, Borders and Margins](box-model.md)
 - [Visual Formatting](display.md)
