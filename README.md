@@ -6,6 +6,7 @@ A collection of CSS notes.
 - [Box Model - Padding, Borders and Margins](box-model.md)
 - [Visual Formatting](display.md)
 - [Transforms](transforms.md)
+- [Tacky Techniques](tacky-techniques.md)
 
 ## bibliography
 - CSS Floating by Eric A. Meyer
