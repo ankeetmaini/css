@@ -1,1 +1,2 @@
 - [Vertical and horizontal centering using positioning](https://jsbin.com/bucidayuvo/edit?html,css,output)
+- [Vertical centering with images of various resolutions](https://jsbin.com/lizixuzese/edit?css,output)
