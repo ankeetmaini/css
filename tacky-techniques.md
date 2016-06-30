@@ -1,2 +1,3 @@
 - [Vertical and horizontal centering using positioning](https://jsbin.com/bucidayuvo/edit?html,css,output)
 - [Vertical centering with images of various resolutions](https://jsbin.com/lizixuzese/edit?css,output)
+- [Use transform to create a slider](https://jsbin.com/xuviyupela/2/edit?html,css,output)
