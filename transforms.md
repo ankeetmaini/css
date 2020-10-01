@@ -7,7 +7,7 @@
  - e.g. `#example {transform: rotate(30deg) skewX(-25deg) scaleY(2);}`, [first-to-last processing order]
  - when you have a series of transform functions, all of them must be properly formatted; that is, they must be valid. If even one function is invalid, it renders the entire value invalid
  - transforms are not applied to “atomic inline-level” boxes (spans, hyperlinks, and so on)
-  - a span (or any inline-level box) that breaks across multiple lines. If you rotate it, what happens? Does each line box rotate with respect to itself, or should all the line boxes be rotated as a single group? There’s no clear answer, and the debate continues, so for now you can’t directly transform inline-level boxes.
+  - a span (or any inline-level box) that breaks across multiple lines. If you rotate it, what happens? Does each line box rotate with respect to itself, or should all the line boxes be rotated as a single group? There’s no clear answer, and hence the debate continues, so for now you can’t directly transform inline-level boxes.
 
 ## transform functions
  - Google search (scale|scaleX|scaleY|scaleZ|scale3d, translate|translateX|translateY|translateZ|translate3d, rotate|rotateX|rotateY|rotateZ, skew|skewX|skewY)
